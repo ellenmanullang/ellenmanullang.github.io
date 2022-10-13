@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet"href="index.css">
     <link rel="icon" type="image/x-icon" href="favicon_tupperware.ico">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"href="contact_us.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 </head>
@@ -41,52 +41,69 @@
             </div>
         </div>
     </div>
- 
-    <div id="content">
-        <a href="https://www.tupperware.co.id/produk/katalog-brosur/brosur"><img src="gambar.satu.jpg" alt="Tupperware" style="width:100% ;"></a>
-        <!-- <div class="foto"><a href="https://shop.tupperware.co.id/products.html"><img src="gambar.dua.jpg" alt="Tupperware"></a></div>
-        <div class="foto"><a href="https://shop.tupperware.co.id/products.html"><img src="gambar.tiga.jpg" alt="Tupperware"></a></div>
-        <div class="foto"><a href="https://shop.tupperware.co.id/products.html"><img src="gambar.empat.jpg" alt="Tupperware"></a></div>
-        <div class="foto"><a href="https://shop.tupperware.co.id/products.html"><img src="gambar.lima.jpg" alt="Tupperware"></a></div> -->
-    </div>
-<!-- 
-    <tr>
-        <td>
-            <img src="gambar2.jpg" class="foto">
-            <img src="gambar3.jpg" class="foto">
-        </td>
-        <td>
-            <img src="gambar4.jpg" class="foto">
-            <img src="gambar5.jpg" class="foto">
-        </td>
-    </tr>
-     -->
-    <table class="table">
-        <tr>
-            <td>
-                <img src="gambar2.jpg" class="foto">
-            </td>
-            <td>
-                <img src="gambar4.jpg" class="foto">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="gambar3.jpg" class="foto">
-            </td>
-            <td>
-                <img src="gambar5.jpg" class="foto">
-            </td>
-        </tr>
-    </table>
+    
+    
+    <div class="contact">
+        <br><br><br>
+        <h1>FORM:</h1>
 
+        <div class="form">
+            <label for="nama_lengkap"><b>Full Name :</b></label><br>
+            <input type="text" id="nama_lengkap" placeholder="Masukkan Nama Lengkap" name="nama_lengkap">
+        </div>
+        <div class="form">
+            <label for="email"><b>E-mail :</b></label><br>
+            <input type="emai" id="email" placeholder="Masukkan Email" name="email">
+        </div>
+        <div class="form">
+            <label for="username"><b>Username :</b></label><br>
+            <input type="text" id="user_name" placeholder="Masukkan Username" name="user_name">
+        </div>
+        <div class="form">
+            <label for="password"><b>Password :</b></label><br>
+            <input type="password" id="password" placeholder="Masukkan password" name="password">
+        </div>
+        <div class="form">
+            <label for="jenis_kelamin"><b>Gender :</b></label>
+                <div><input type="radio" name="jenis_kelamin" value="laki-laki">laki-laki</div>
+                <div><input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</div>
+        </div>
+        <div class="form">
+            <label for="agama"><b>Religion :</b></label><br>
+            <div>
+                <select name="agama" id="alamat">
+                    <option value="">Pilih Agama</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katolik">Islam</option>
+                        <option value="islam">Katolik</option>
+                        <option value="hindu">Buddha</option>
+                        <option value="buddha">Hindu</option>
+                        <option value="konghucu">Konghucu</option>
+                </select>
+            </div>
+        </div>
+        <div class="form">
+            <label for="address"><b>Address :</b></label><br>
+            <input type="textarea" id="alamat" placeholder="Masukkan Address" name="address">        
+        </div>
+        <div class="form">
+            <label for="hobby"><b>Hobby :</b></label>
+            <div><input type="checkbox" name="hobby" value="basketball">BasketBall</div>
+            <div><input type="checkbox" name="hobby" value="swimming">Swimming</div>
+            <div><input type="checkbox" name="hobby" value="watching">Watching</div>
+            <div><input type="checkbox" name="hobby" value="reading">Reading</div>
+            <div><input type="checkbox" name="hobby" value="lainnya">Etc</div>
+        </div>
+        <input type="submit" value="save">
+    </div>
+    
     <div>
         <div id="satu">
-            <button class="button"><a href="https://www.tupperware.co.id/gabung-member"><b>Gabung sebagai member</b></a></button><br><br>
+            <!-- <button class="button"><a href="https://www.tupperware.co.id/gabung-member"><b>Gabung sebagai member</b></a></button><br><br> -->
             <p><img src= "tupperware-logo.png"></a></p>
         </div>
     </div>
-
+    
     <div class="social">
         <a href="https://www.facebook.com/TupperwareID"><i class='bx bxl-facebook' ></i></a>
         <a href="https://twitter.com/TupperwareID"><i class='bx bxl-twitter' ></i></a>
@@ -97,7 +114,7 @@
     <div id= "footer">
         <div class="bagi7"> 
             <ul>
-                <div class= "isi">   
+                <div class= "isi">
                     <li><a href= "https://www.tupperware.co.id/tentang-kami"> Tentang Kami </a></li>
                     <li><a href= "https://www.tupperware.co.id/penghargaan"> Penghargaan </a></li>
                     <li><a href= "https://www.tupperware.co.id/faq#sbox470=;"> FAQ </a></li>
